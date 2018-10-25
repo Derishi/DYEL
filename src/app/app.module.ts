@@ -9,13 +9,17 @@ import { TabsPage } from '../pages/tabs/tabs';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import { SetListComponent } from '../components/set-list/set-list.component';
+import { SetComponent } from '../components/set-list/set/set.component';
 
 @NgModule({
   declarations: [
     MyApp,
     AboutPage,
     HomePage,
-    TabsPage
+    TabsPage,
+    SetListComponent,
+    SetComponent
   ],
   imports: [
     BrowserModule,
@@ -26,7 +30,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     MyApp,
     AboutPage,
     HomePage,
-    TabsPage
+    TabsPage,
+    SetListComponent,
+    SetComponent
   ],
   providers: [
     StatusBar,

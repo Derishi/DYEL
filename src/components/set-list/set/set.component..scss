@@ -1,0 +1,25 @@
+set {
+    .set-container {
+        display: inline-flex;
+
+        .rep-container {
+            display: flex;
+            border-radius: 50%;
+            background-color: red;
+            width: 40px;
+            height: 40px;
+            align-items: center;
+            justify-content: center;
+    
+            .rep-counter {
+                color: white;
+            }
+        }
+
+        .rep-goal-container {
+            display: flex;
+            align-items: flex-end;
+        }
+    }
+
+}
